@@ -26,3 +26,10 @@ bun start
 ````
 
 Open http://localhost:{ENV}/ with your browser to see the result.
+
+## Documentation
+
+To see swagger documentation
+Open http://localhost:{ENV}/api/v1/swagger
+
+
