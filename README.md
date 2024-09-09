@@ -3,6 +3,7 @@
 ## Step
 
 ````bash
+curl -fsSL https://bun.sh/install | bash
 bun add elysia prisma
 bun prisma init
 bun prisma generate
