@@ -1,14 +1,14 @@
-# Elysia with Bun runtime
+# Elysia
 
 ## Step
 
-````bash
+```bash
 curl -fsSL https://bun.sh/install | bash
-bun add elysia prisma
-bun prisma init
+bun install
 bun prisma generate
 bun prisma migrate dev
-
+npm install
+```
 
 
 ## Development
@@ -16,7 +16,13 @@ bun prisma migrate dev
 To start the development server run:
 
 ```bash
-bun run dev
+bun run dev 
+````
+
+To start the prodcution server run:
+
+```bash
+bun start
 ````
 
 Open http://localhost:{ENV}/ with your browser to see the result.
